@@ -160,17 +160,17 @@ body {
     margin-top: 30px;
 }
 
-.video-container video {
+.video-container iframe {
     width: 80%;
     max-width: 900px;
+    height: 500px;
     border-radius: 12px;
 }
 
-/* Responsive for mobile */
 @media (max-width: 768px) {
-    .video-container video {
+    .video-container iframe {
         width: 95%;
-        height: auto;
+        height: 250px;
     }
 }
 
@@ -271,6 +271,7 @@ body {
         adding: 8px 16px; 
     }
 }
+
 
 
 
