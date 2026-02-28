@@ -166,10 +166,11 @@ body {
     border-radius: 12px;
 }
 
+/* Responsive for mobile */
 @media (max-width: 768px) {
-    .video-container iframe {
+    .video-container video {
         width: 95%;
-        height: 250px;
+        height: auto;
     }
 }
 
@@ -270,5 +271,6 @@ body {
         adding: 8px 16px; 
     }
 }
+
 
 
