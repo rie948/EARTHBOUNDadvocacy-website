@@ -31,8 +31,17 @@ body {
 }
 
 .logo {
-    font-size: 26px;
-    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #4CAF50;
+    margin-top: 4px;
 }
 
 .nav a {
@@ -238,3 +247,4 @@ body {
         adding: 8px 16px; 
     }
 }
+
