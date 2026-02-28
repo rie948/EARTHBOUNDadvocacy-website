@@ -165,8 +165,10 @@ body {
     max-width: 900px;
     height: 500px;
     border-radius: 12px;
+    border: none;
 }
 
+/* Responsive for mobile */
 @media (max-width: 768px) {
     .video-container iframe {
         width: 95%;
@@ -271,6 +273,7 @@ body {
         adding: 8px 16px; 
     }
 }
+
 
 
 
